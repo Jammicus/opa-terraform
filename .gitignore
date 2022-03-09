@@ -1,0 +1,8 @@
+.terraform/
+.terraform.lock.hcl
+plan
+plan.json
+private_key.pem
+result.txt
+terraform.tfstate
+terraform.tfstate.backup
