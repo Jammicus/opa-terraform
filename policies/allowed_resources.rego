@@ -36,14 +36,6 @@ score = s {
     print("Total score", s, " Max score", blast_radius)
 }
 
-# Whether there is any change to IAM
-touches_iam {
-    all := resources["aws_iam"]
-    count(all) > 0
-}
-
-
-
 # list of all resources of a given type
 resources[resource_type] = all {
     some resource_type
